@@ -30,7 +30,7 @@ name:          Zaid Ali
 role:          B.Tech CSE, NIT Patna (2025 – 2029)
 currently:     Web Dev @ Expresso NITP · Blockchain Dev @ Web & Coding Club NITP
 learning:      Backend systems (Node → Postgres/Prisma) → LangChain/LangGraph
-targeting:     Product companies (Microsoft, Oracle) · Quant firms (Tower Research, Graviton, Quadeye)
+
 ```
 
 <br/>
