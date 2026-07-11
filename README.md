@@ -118,12 +118,12 @@ targeting:     Product companies (Microsoft, Oracle) · Quant firms (Tower Resea
 ## GitHub Stats
 
 <div align="center">
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=zaidali01&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b26&title_color=7aa2f7&icon_color=7dcfff&count_private=true" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=zaidali01&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b26&title_color=7aa2f7&icon_color=7dcfff&cache_seconds=86400" />
 <img height="165" src="https://streak-stats.demolab.com/?user=zaidali01&theme=tokyonight&hide_border=true&background=1a1b26&ring=7aa2f7&fire=ff9e64" />
 </div>
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zaidali01&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b26&title_color=7aa2f7" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zaidali01&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b26&title_color=7aa2f7&cache_seconds=86400" />
 </div>
 
 <br/>
