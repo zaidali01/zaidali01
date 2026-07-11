@@ -132,9 +132,9 @@ targeting:     Product companies (Microsoft, Oracle) · Quant firms (Tower Resea
 
 ### Let's connect
 
-<a href="https://github.com/zaidali01"><img src="https://img.shields.io/badge/GitHub-1a1b26?style=for-the-badge&logo=github&logoColor=7aa2f7" /></a>
-<a href="#"><img src="https://img.shields.io/badge/LinkedIn-1a1b26?style=for-the-badge&logo=linkedin&logoColor=7dcfff" /></a>
-<a href="#"><img src="https://img.shields.io/badge/Email-1a1b26?style=for-the-badge&logo=gmail&logoColor=ff9e64" /></a>
+
+<a href="https://www.linkedin.com/in/zaid-ali-40a198233/"><img src="https://img.shields.io/badge/LinkedIn-1a1b26?style=for-the-badge&logo=linkedin&logoColor=7dcfff" /></a>
+<a href="zaidali1446@gmail.com"><img src="https://img.shields.io/badge/Email-1a1b26?style=for-the-badge&logo=gmail&logoColor=ff9e64" /></a>
 
 <sub>NIT Patna · CSE '29</sub>
 
