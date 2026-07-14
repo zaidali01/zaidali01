@@ -114,7 +114,13 @@ learning:      Backend systems (Node → Postgres/Prisma) → LangChain/LangGrap
 </div>
 
 <br/>
+## Contribution Snake
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/zaidali01/zaidali01/output/github-contribution-grid-snake-dark.svg" width="100%" alt="github contribution snake animation" />
+</div>
+
+<br/>
 ## GitHub Stats
 
 <div align="center">
