@@ -114,23 +114,16 @@ learning:      Backend systems (Node → Postgres/Prisma) → LangChain/LangGrap
 </div>
 
 <br/>
-## Contribution Snake
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/zaidali01/zaidali01/output/github-contribution-grid-snake-dark.svg" width="100%" alt="github contribution snake animation" />
-</div>
-
-<br/>
 ## GitHub Stats
 
-<div align="center">
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=zaidali01&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b26&title_color=7aa2f7&icon_color=7dcfff&cache_seconds=86400" />
-<img height="165" src="https://streak-stats.demolab.com/?user=zaidali01&theme=tokyonight&hide_border=true&background=1a1b26&ring=7aa2f7&fire=ff9e64" />
-</div>
+<p align="center">
+  <img src="https://img.shields.io/badge/Total_Contributions-136-1a1b26?style=for-the-badge&labelColor=1a1b26&color=7aa2f7" />
+  <img src="https://img.shields.io/badge/Current_Streak-1_day-1a1b26?style=for-the-badge&labelColor=1a1b26&color=bb9af7" />
+  <img src="https://img.shields.io/badge/Longest_Streak-5_days-1a1b26?style=for-the-badge&labelColor=1a1b26&color=9ece6a" />
+</p>
 
-<div align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zaidali01&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b26&title_color=7aa2f7&cache_seconds=86400" />
-</div>
+<p align="center"><sub>Snapshot as of Sep 2026 — update the numbers here manually whenever you refresh your profile, since this row never depends on an external fetch.</sub></p>
 
 <br/>
 
@@ -138,9 +131,8 @@ learning:      Backend systems (Node → Postgres/Prisma) → LangChain/LangGrap
 
 ### Let's connect
 
-
 <a href="https://www.linkedin.com/in/zaid-ali-40a198233/"><img src="https://img.shields.io/badge/LinkedIn-1a1b26?style=for-the-badge&logo=linkedin&logoColor=7dcfff" /></a>
-<a href="zaidali1446@gmail.com"><img src="https://img.shields.io/badge/Email-1a1b26?style=for-the-badge&logo=gmail&logoColor=ff9e64" /></a>
+<a href="mailto:zaidali1446@gmail.com"><img src="https://img.shields.io/badge/Email-1a1b26?style=for-the-badge&logo=gmail&logoColor=ff9e64" /></a>
 
 <sub>NIT Patna · CSE '29</sub>
 
