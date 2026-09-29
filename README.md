@@ -186,13 +186,8 @@ Uncomment and fill in the stack badges + repo links once ready:
 
 ## 📊 GitHub Stats
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Total_Contributions-136-7aa2f7?style=for-the-badge&labelColor=1a1b26&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/Current_Streak-1_day-bb9af7?style=for-the-badge&labelColor=1a1b26&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/Longest_Streak-5_days-9ece6a?style=for-the-badge&labelColor=1a1b26&logo=github&logoColor=white" />
-</p>
-
-<p align="center"><sub>Snapshot as of Sep 2026 — update the numbers here manually whenever you refresh your profile, since this row never depends on an external fetch.</sub></p>
+<!-- STATS:START -->
+<!-- STATS:END -->
 
 <br/>
 
