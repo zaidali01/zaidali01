@@ -7,6 +7,7 @@ Env vars:
 import json
 import os
 import re
+import urllib.error
 import urllib.request
 from datetime import date, datetime, timedelta, timezone
 
@@ -44,8 +45,17 @@ def fetch():
         data=body,
         headers={"Authorization": f"bearer {TOKEN}", "Content-Type": "application/json"},
     )
-    with urllib.request.urlopen(req) as r:
-        data = json.load(r)
+    try:
+        with urllib.request.urlopen(req) as r:
+            data = json.load(r)
+    except urllib.error.HTTPError as e:
+        if e.code in (401, 403):
+            raise SystemExit(
+                f"GitHub rejected the token ({e.code}). STATS_TOKEN must be a classic "
+                "PAT with the read:user scope; the default GITHUB_TOKEN is an app "
+                "installation token and cannot read contributions."
+            ) from e
+        raise
     if "errors" in data:
         raise SystemExit(f"GraphQL error: {data['errors']}")
     cal = data["data"]["user"]["contributionsCollection"]["contributionCalendar"]

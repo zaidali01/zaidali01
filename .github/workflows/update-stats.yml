@@ -22,12 +22,19 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Check STATS_TOKEN is present
+        env:
+          GH_TOKEN: ${{ secrets.STATS_TOKEN }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "::error::STATS_TOKEN is not set. Add a classic PAT with the read:user scope under Settings > Secrets and variables > Actions."
+            exit 1
+          fi
+
       - name: Refresh stats in README
         env:
           GH_USER: zaidali01
-          # STATS_TOKEN (PAT with read:user) counts private contributions too.
-          # Falls back to the default token, which only sees public activity.
-          GH_TOKEN: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.STATS_TOKEN }}
         run: python .github/scripts/update_stats.py
 
       - name: Commit if changed

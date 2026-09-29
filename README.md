@@ -189,6 +189,10 @@ Uncomment and fill in the stack badges + repo links once ready:
 <!-- STATS:START -->
 <!-- STATS:END -->
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/zaidali01/zaidali01/output/github-contribution-grid-snake.svg" alt="GitHub contribution snake animation" width="100%" />
+</p>
+
 <br/>
 
 <div align="center">
