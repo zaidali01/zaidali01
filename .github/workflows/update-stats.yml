@@ -1,0 +1,43 @@
+name: Update contribution stats
+
+on:
+  schedule:
+    - cron: "0 1 * * *"   # daily at 01:00 UTC
+  workflow_dispatch:       # lets you run it manually from the Actions tab
+  push:
+    paths:
+      - ".github/scripts/update_stats.py"
+      - ".github/workflows/update-stats.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Refresh stats in README
+        env:
+          GH_USER: zaidali01
+          # STATS_TOKEN (PAT with read:user) counts private contributions too.
+          # Falls back to the default token, which only sees public activity.
+          GH_TOKEN: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
+        run: python .github/scripts/update_stats.py
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet README.md; then
+            echo "No changes"
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "chore: update contribution stats"
+            git push
+          fi
